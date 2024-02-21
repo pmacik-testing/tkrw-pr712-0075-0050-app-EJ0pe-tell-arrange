@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-csll
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0050-tenant/tkrw-pr712-0075-0050-app/devfile-sample-csll@sha256:9ec865946303ed80b3096bad723514737484cb45a43470d7ea66bde814efc3eb
         name: my-nodejs
         ports:
         - containerPort: 3001
